@@ -8,10 +8,26 @@ Most repository audits stop at “you are missing a README”. OSS Health produc
 
 ## Quick start
 
-```bash
-# No installation required
-python -m oss_health /path/to/repository
+### Option A — run it without installing anything
 
+```bash
+git clone https://github.com/MaxenceBoucquez/oss-health.git
+cd oss-health
+python -m oss_health /path/to/the/repository/to/audit
+```
+
+### Option B — install the command locally
+
+```bash
+git clone https://github.com/MaxenceBoucquez/oss-health.git
+cd oss-health
+python -m pip install .
+oss-health /path/to/the/repository/to/audit
+```
+
+No account, API key, PayPal payment, or source-code upload is required. The audit runs locally on the user's computer.
+
+```bash
 # Markdown report for an issue or client hand-off
 python -m oss_health . --format markdown > OSS_HEALTH.md
 
@@ -20,13 +36,6 @@ python -m oss_health . --format json > oss-health.json
 
 # Fail CI until all baseline checks pass
 python -m oss_health . --strict
-```
-
-With the package installed:
-
-```bash
-pip install .
-oss-health . --strict
 ```
 
 ## What it checks
