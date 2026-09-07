@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oss-health"
+version = "0.2.0"
+description = "Actionable open-source repository health audits"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Maxence Boucquez"}]
+
+[project.scripts]
+oss-health = "oss_health.__main__:main"
