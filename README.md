@@ -55,13 +55,18 @@ WARN  Code of conduct — Set expectations for a welcoming project
 
 A healthy OSS project converts more visitors into users and contributors. This tool is intentionally small enough to run locally, in CI, or as part of an AI coding workflow without sending source code anywhere.
 
-## Paid maintainer service
+## Free tool, paid outcome
 
-I also provide focused human help for projects that want to improve their score:
+The CLI is intentionally free and open source. You should not pay to run it.
 
-- **€9 — Snapshot:** written report with the top three improvements
-- **€29 — Fix plan:** report plus PR-ready implementation plan
-- **€79 — Fix sprint:** implementation of the highest-impact baseline fixes
+The paid offer is for work around the tool that cannot be automated safely or usefully:
+
+- **€9 — Public snapshot:** human-written prioritization of the top three improvements on a public repository
+- **€29 — Private audit:** review of a private repository, with an actionable report and maintainer questions
+- **€79 — Fix sprint:** implementation of the highest-impact baseline fixes in a pull request
+- **€149 — AI/OSS launch pack:** repository audit, contributor onboarding, CI hardening, and a release-readiness checklist
+
+You are paying for private context, judgment, implementation, and time saved — not for the CLI binary.
 
 Payment: [PayPal](https://www.paypal.com/qrcodes/p2pqrc/Y8W5GZNGGTLFQ)
 
